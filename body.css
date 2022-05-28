@@ -1,0 +1,200 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: cursive;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *after {
+	box-sizing: inherit;
+}
+
+a {
+ 	text-decoration: none;
+}
+
+li {
+ 	list-style: none;
+}
+
+/* Nav-Bar */
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	background-color:#00FFCC;
+	background-image: url("travel/italy.jpg");
+	background-size: cover;
+	color: #fff;
+}
+
+.nav-links a {
+	color: #fff;
+}
+
+.LOGO{
+	font-size: 40px;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.navbar{
+	display: flex;
+	gap: 1em;
+	font-size: 15px;
+}
+
+.navbar li:hover{
+	background-color: sandybrown;
+	border-radius: 2px;
+	transition: 0.3s  ease;
+}
+
+.navbar{
+	padding: 5px 14px;
+}
+
+/* body  */
+ 
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 10px;
+	padding: 0 8px;
+	margin: auto;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 ryba(0,0,0,0.2);
+	margin: 8px;
+}
+
+.accomodation-section {
+	padding: 5px;
+	text-align: center;
+	background-color: #474e5d;
+	background-image: url("travel/italy.jpg");
+	background-blend-mode:difference;
+	color: white;
+	margin: 0px;
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+
+.container {
+	padding: 2 11px;
+}
+
+.container {
+	content: "";
+	clear: both;
+	display: table;
+	font-size: 8px;
+
+}
+
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 6px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 60%;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color:darkgoldenrod;
+	transition: all 1s;
+	border: 5px ;
+	color: whitesmoke;
+	border-color: black;
+}
+
+.button1 {
+	outline: 0;
+	display: inline-block;
+	padding: 1px;
+	color: black;
+	background-color: whitesmoke;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 12px;
+
+}
+
+.button1:hover {
+	background-color:dimgray;
+	transition: all 1s;
+	border: 2px ;
+	color: white;
+}
+
+footer {
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 10px;
+}
+img{ 
+	 width: 220px;
+	 height: 200px;
+	 margin: 2px;
+	 transition: all 0.8s;
+	}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
+}
+
+footer .topic {
+	font-size: 14px;
+	font-weight: 600;
+	color: ;
+}
+
+/*footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #111;
+}
+
+footer .content {
+	max-width: 1350px;
+	background: brown;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer .content .box{
+	width: 33%;	
+}
+
+footer .content .topic {
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 16px;
+}
